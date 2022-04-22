@@ -29,9 +29,6 @@ Floor = "w"   # seat : 숫자 또는 영어. 열을 지정
 
 
 
-
-
-
 month = {'Jan':'01', 'Feb':'02', 'Mar':'03', 'Apr':'04', 'May':'05', 'Jun':'06', \
     'Jul':'07', 'Aug':'08', 'Sep':'09', 'Oct':'10', 'Nov':'11', 'Dec':'12'}
 
@@ -64,7 +61,7 @@ def seat_title_checking9(level,floor,seat):
     return "[title*='" +"객석" + level + "석'][title*='" + floor + "층" + "-" + str(seat) + "열']"    
  
 
-driver = webdriver.Chrome(r'C:/Users/DongWoo/Documents/chromedriver.exe')
+driver = webdriver.Chrome(r'크롬드라이버 위치')
 
 driver.set_window_size(1400,1000)
 driver.get("https://ticket.interpark.com/Gate/TPLogin.asp")
