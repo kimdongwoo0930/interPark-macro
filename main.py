@@ -10,8 +10,8 @@ import re
 
 
 
-ID = "qaz2502"             # 인터파크 아이디
-Password = "ehddn0930@"    # 인터파크 비밀번호
+ID = "ID"             # 인터파크 아이디
+Password = "PassWord"    # 인터파크 비밀번호
 CODE = "22001534"       #CODE = "22000970" # 데스노트
 startTime = "2022-04-20-20-31-30"  #예매 시작 시간
 
