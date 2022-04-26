@@ -152,7 +152,7 @@ for li in time_li:
 
 
 
-'''
+
 url = 'https://ticket.interpark.com'
 while True:
 
@@ -165,7 +165,7 @@ while True:
         break
     else:
         continue
-'''
+
 
 
 
